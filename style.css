@@ -13,7 +13,7 @@ body {
 header {
   padding-top: 64px;
   padding-bottom: 32px;
-  padding-left: 16px;;
+  padding-left: 32px;
   border-bottom: 8px solid;
   border-color: hsl(0deg, 0%, 60%);
   background-color: hsl(0deg, 0%, 100%);
@@ -25,7 +25,7 @@ main {
 }
 
 .max-width-wrapper {
-  max-width: 650px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
@@ -36,9 +36,10 @@ main {
   background-color: hsl(0deg, 0%, 100%);
   border-bottom: 8px solid;
   border-color:  hsl(0deg, 0%, 60%);
-  padding: 8px 16px 8px 16px;
+  padding: 24px;
   font-size: 1rem;
   margin-top: 16px;
+  font-size: 1.25rem;
 }
 
 
@@ -50,16 +51,17 @@ main {
 .indented-heading {
   background-color: hsl(45deg, 100%, 50%);
   width: fit-content;
-  padding: 8px 16px;
+  padding: 8px 32px;
   border-bottom: 8px solid;
   border-color: hsl(45deg, 100%, 30%);
-  margin-left: -24px;
+  margin-left: -32px;
   font-size: 1.25rem;
 }
 
 .intro-chunk {
-  max-width: 320px;
-  font-size: 1rem;
+  max-width: 450px;
+  font-size: 1.25rem;
+  margin-left:8px;
 }
 
 strong {
